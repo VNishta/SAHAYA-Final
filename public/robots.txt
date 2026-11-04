@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sahaya.edu.in/sitemap.xml

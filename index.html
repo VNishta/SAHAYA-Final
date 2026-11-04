@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SAHAYA — Teacher-Assisted Adaptive Learning System (Grades 6–10)</title>
+    <meta
+      name="description"
+      content="SAHAYA is a teacher-assisted adaptive learning system for Indian classrooms (Grades 6–10). Identify individual and class-wide concept gaps from paper assessments without requiring student devices."
+    />
+    <meta
+      name="keywords"
+      content="SAHAYA, teacher-assisted adaptive learning, Indian classrooms, Grades 6 to 10, paper-first assessment, concept gap analysis, differentiated instruction, rule-based learning paths"
+    />
+    <meta name="author" content="SAHAYA Project Team" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://sahaya.edu.in/" />
+
+    <!-- Open Graph / Social Metadata -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="SAHAYA" />
+    <meta property="og:title" content="SAHAYA — Teacher-Assisted Adaptive Learning System" />
+    <meta
+      property="og:description"
+      content="Identify individual and classroom-wide learning gaps in Grades 6–10 through short paper assessments and a fast digital response grid."
+    />
+    <meta property="og:url" content="https://sahaya.edu.in/" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="SAHAYA — Teacher-Assisted Adaptive Learning System" />
+    <meta
+      name="twitter:description"
+      content="Paper-first adaptive learning system for Indian classrooms (Grades 6–10). Fast response entry, concept-level analysis, and deterministic learning recommendations."
+    />
+
+    <!-- Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Structured Data (GEO & AEO: SoftwareApplication + FAQPage) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "SoftwareApplication",
+            "name": "SAHAYA",
+            "headline": "Teacher-Assisted Adaptive Learning System for Grades 6–10",
+            "applicationCategory": "EducationalApplication",
+            "operatingSystem": "Web Browser (Desktop, Tablet, Mobile)",
+            "educationalUse": ["Formative Assessment", "Concept Gap Analysis", "Differentiated Instruction"],
+            "audience": {
+              "@type": "EducationalAudience",
+              "educationalRole": "teacher",
+              "audienceType": "Middle and Secondary School Teachers (Grades 6–10)"
+            },
+            "description": "SAHAYA helps teachers in Indian classrooms (Grades 6–10) identify individual and class-wide learning gaps through short paper assessments, rapid digital grid entry, and deterministic rule-based learning path recommendations.",
+            "featureList": [
+              "Class and student roster management for Grades 6–10",
+              "Concept-tagged multiple-choice paper assessment builder",
+              "Pre-marked correct response entry grid with keyboard shortcuts",
+              "Deterministic rule-based recommendation engine (Relearn Fundamentals, Practise, Advance, Needs Confirmation)",
+              "Class-wide concept accuracy analysis and student-level concept breakdown",
+              "Multi-assessment student progress tracking",
+              "Dual persistence with Supabase PostgreSQL and offline IndexedDB"
+            ]
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What is SAHAYA?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "SAHAYA is a teacher-assisted adaptive learning system designed for Indian classrooms in Grades 6–10. It enables teachers to administer short paper-based assessments, enter responses into a fast digital grid, analyze concept-level performance, and receive transparent learning path recommendations."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do students need individual devices to use SAHAYA?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. Students answer multiple-choice questions on paper. Only the teacher uses a single laptop, tablet, or smartphone to record responses and view insights."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How does SAHAYA save teacher time during response entry?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "All student responses in the digital grid are initially pre-marked as Correct. Teachers only click or use keyboard shortcuts to mark incorrect or unanswered questions, with automatic saving and instant score calculation."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How are student learning paths calculated?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "SAHAYA uses a deterministic, rule-based engine that evaluates overall score, concept-level accuracy, prerequisite concept mastery, and evidence sufficiency to assign students to Relearn Fundamentals, Practise, Advance, or Needs Confirmation."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
